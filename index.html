@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href = "styles.css"/>
+    
+</head>
+<body>
+    
+    <header>
+        <h1>Multiplication Problems</h1>
+        <p class ="expression show-hide"> Please select an answer below the problem.</p>
+    </header>
+
+    <main>
+        <section id ="problem">
+            <div class="expression show-hide" id="expression"></div>
+            <p>
+                Problem: <span class="currentProblem">1</span> /10
+                Score: <span class="currentScore">0</span>
+            </p>
+        </section>
+        <section id="answers" class="show-hide">
+            <ul>
+                <li id="one"></li>
+                <li id="two"></li>
+                <li id="three"></li>
+                <li id="four"></li>
+            </ul>
+        </section>
+        <button id="btnStartOver">Start Over</button>
+    </main>
+    <script src="js.js"></script>
+</body>
+</html>
